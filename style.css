@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+body{
+
+    background-color: #E6EFF6;
+
+    
+}
+
+
+.container{
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #E6EFF6;
+    margin-bottom: 20px;
+}
+
+.container .upper{
+
+   background-color: #FFFFFF;
+   width: 55%;
+   height: 40%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   gap: 1rem;
+   padding: 2.5rem;
+
+   
+
+}
+
+.container .upper h1{
+
+ 
+    color:hsl(179, 62%, 43%);
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+
+ }
+ .container .upper h2{
+
+ 
+    color:hsl(71, 73%, 54%);
+    font-weight: 700;
+   
+    
+
+ }
+
+
+ .container .upper p{
+
+ 
+    color: hsl(218, 22%, 67%);
+    
+   
+    
+
+ }
+
+
+
+.container .lower{
+
+    background-color: rgb(65, 225, 105);
+    width: 55%;
+    height: 40%;
+    display: flex;
+}
+
+
+.container .lower .subscription{
+
+
+
+    width: 50%;
+    height: 100%;
+    background-color: #4ABEBD;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2.5rem;
+}
+
+
+
+.container .lower .subscription h1{
+
+    color: #DDEFEF;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.container .lower .subscription span{
+
+    color: #FFFFFF;
+    font-weight: 700;
+
+}
+
+
+
+.container .lower .subscription span small{
+
+
+    color: #68D4D2;
+    margin-left: 5px;
+
+
+}
+
+
+.container .lower .subscription p {
+
+
+color : #B0E4ED
+}
+.container .lower .subscription input {
+
+
+
+background-color: #BFDF32;
+padding: 10px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+
+
+}
+.container .lower .about{
+
+    width: 50%;
+    height: 100%;
+    background-color: #2AAFAE;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2.5rem;
+  
+    
+}
+
+
+.container .lower .about h1{
+
+
+    color: #DEFFFF;
+    font-family: 'Josefin Sans', sans-serif;
+    
+   
+
+}
+
+
+
+
+.container .lower .about p{
+
+
+    color: #A0EFF0;
+
+    
+
+}
+
+
+
+@media (max-width: 826px){
+
+
+
+    body{
+
+        font-weight: 400;
+        
+    }
+
+
+  
+   
+
+
+    .container .upper{
+
+       /* width: 350px; */
+       
+     
+     }
+
+
+     .container .lower{
+
+        
+        flex-direction: column;
+        /* width: 350px; */
+
+        
+      
+      }
+
+      .container .lower .subscription{
+
+        width: 100%;
+
+
+      }
+
+      .container .lower .about{
+
+        width: 100%;
+
+
+      }
+   
+   
+    
+}
+
+
+@media (max-width: 500px){
+
+    .container .upper{
+
+        width: 300px;
+        
+      
+      }
+ 
+ 
+      .container .lower{
+ 
+         
+      
+         width: 300px;
+ 
+         
+       
+       }
+ 
+
+}

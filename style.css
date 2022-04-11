@@ -203,7 +203,7 @@ cursor: pointer;
 
     .container .upper{
 
-       /* width: 350px; */
+       width: 350px;
        
      
      }
@@ -213,7 +213,7 @@ cursor: pointer;
 
         
         flex-direction: column;
-        /* width: 350px; */
+        width: 350px;
 
         
       
@@ -238,25 +238,3 @@ cursor: pointer;
 }
 
 
-@media (max-width: 500px){
-
-    .container .upper{
-
-        width: 300px;
-        
-      
-      }
- 
- 
-      .container .lower{
- 
-         
-      
-         width: 300px;
- 
-         
-       
-       }
- 
-
-}
